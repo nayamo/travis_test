@@ -8,7 +8,7 @@ before_script:
   - "ruby -v"
   - "gem list"
 script:
-  - "rake -T"
+  - "uname -a"
 notifications:
   email:
     - naya@val.co.jp
