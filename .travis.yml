@@ -9,6 +9,7 @@ before_script:
   - "gem list"
 script:
   - "uname -a"
+  - "cat /etc/redhat-release"
 notifications:
   email:
     - naya@val.co.jp
