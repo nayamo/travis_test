@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+  - "1.9.3"
+#before_install:
+#  - command1
+#  - command2
+before_script:
+  - "ruby -v"
+  - "gem list"
+script:
+  - "rake -T"
+notifications:
+  email:
+    - naya@val.co.jp
+  on_success: always # default: change
+  on_failure: always
