@@ -10,7 +10,11 @@ before_script:
   - "python -V"
 script:
   - "uname -a"
-  - "aws help"
+  - "cat /etc/debian_version"
+  - "cat /etc/lsb-release"
+  - "cat /etc/redhat-release"
+  - "cat /etc/fedora-release"
+  - "cat /etc/SuSE-release"
 notifications:
   email:
     - naya@val.co.jp
