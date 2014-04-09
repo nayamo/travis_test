@@ -1,16 +1,16 @@
 language: ruby
 rvm:
   - "1.9.3"
-#before_install:
-#  - command1
-#  - command2
+before_install:
+  - wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+  - python get-pip.py
 before_script:
   - "ruby -v"
   - "gem list"
   - "python -V"
   - "pip help"
 script:
-#  - "uname -a"
+  - "uname -a"
 #  - "cat /etc/debian_version"
 #  - "cat /etc/lsb-release"
 #  - "cat /etc/redhat-release"
