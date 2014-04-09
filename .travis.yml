@@ -8,7 +8,7 @@ before_script:
   - "ruby -v"
   - "gem list"
   - "python -V"
-  - "pip help"
+  - "sudo pip help"
 script:
   - "uname -a"
 #  - "cat /etc/debian_version"
