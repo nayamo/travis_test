@@ -5,11 +5,12 @@ before_install:
   # - wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
   # - sudo python get-pip.py
    - sudo apt-get install python-pip
+   - sudo pip install awscli
 before_script:
   - "ruby -v"
   - "gem list"
   - "python -V"
-  - "pip help"
+  - "aws help"
 script:
   - "uname -a"
 #  - "cat /etc/debian_version"
