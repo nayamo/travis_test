@@ -8,13 +8,14 @@ before_script:
   - "ruby -v"
   - "gem list"
   - "python -V"
+  - "pip help"
 script:
-  - "uname -a"
-  - "cat /etc/debian_version"
-  - "cat /etc/lsb-release"
-  - "cat /etc/redhat-release"
-  - "cat /etc/fedora-release"
-  - "cat /etc/SuSE-release"
+#  - "uname -a"
+#  - "cat /etc/debian_version"
+#  - "cat /etc/lsb-release"
+#  - "cat /etc/redhat-release"
+#  - "cat /etc/fedora-release"
+#  - "cat /etc/SuSE-release"
 notifications:
   email:
     - naya@val.co.jp
