@@ -14,7 +14,7 @@ before_script:
 script:
   - "uname -a"
 #  - "cat /etc/debian_version"
-#  - "cat /etc/lsb-release"
+  - "cat /etc/lsb-release"
 #  - "cat /etc/redhat-release"
 #  - "cat /etc/fedora-release"
 #  - "cat /etc/SuSE-release"
